@@ -1,0 +1,444 @@
+<?xml version="1.0" ?>
+<scenes>
+  <scene>
+    <id>16</id>
+    <image_url>https://cdn.midjourney.com/6ccfd0e2-9fe8-4cc3-a5d0-9e3325b86488/0_3.png</image_url>
+    <scene_type>narrative</scene_type>
+    <setting>ancient stone portal</setting>
+    <setting_description>A circular stone portal, partially covered in moss and vines, set amidst a lush, verdant forest. Stone steps lead up to the portal, inviting characters to explore its mysteries. Sunlight filters through the trees, creating a mystical ambiance.</setting_description>
+    <story_fit>This scene could serve as a pivotal moment in the Yorkies' adventure, perhaps marking the entrance to another realm or a hidden part of the forest. It could be a location where they must make a critical decision or solve a mystery to proceed.</story_fit>
+    <image_details>
+      <width>1232</width>
+      <height>928</height>
+      <format>PNG</format>
+      <size_bytes>2566963</size_bytes>
+    </image_details>
+    <dramatic_moments>
+      <moment>Pawel and Pawleen discover the portal pulsates with magical energy.</moment>
+      <moment>A mysterious force pulls them closer, and they must decide whether to enter.</moment>
+      <moment>The squirrels attempt to sabotage the portal, threatening its activation.</moment>
+      <moment>The Rat Wizard appears, claiming the portal as part of his domain.</moment>
+      <moment>Chickens gather to offer advice and warn of the portal's secrets.</moment>
+    </dramatic_moments>
+  </scene>
+  <scene>
+    <id>17</id>
+    <image_url>https://cdn.midjourney.com/18dbcf65-7f52-42c6-897c-8548a2af0099/0_1.png</image_url>
+    <scene_type>setting</scene_type>
+    <setting>meadow</setting>
+    <setting_description>A vibrant meadow filled with multicolored wildflowers under a bright blue sky. Fluffy white clouds float above, and the landscape is framed by distant mountains and lush trees. The gentle rolling hills are blanketed with daisies and other colorful blooms.</setting_description>
+    <story_fit>This setting is ideal for a peaceful scene where Pawel and Pawleen explore or have a moment of reflection. It can also be a place where they encounter a new friend or discover a clue left by one of their adversaries.</story_fit>
+    <image_details>
+      <width>1424</width>
+      <height>848</height>
+      <format>PNG</format>
+      <size_bytes>2309151</size_bytes>
+    </image_details>
+    <dramatic_moments>
+      <moment>Pawel and Pawleen discover a hidden path leading to the Rat Wizard’s lair.</moment>
+      <moment>The Yorkies come across an injured chicken that needs help.</moment>
+      <moment>A sudden storm rolls in, forcing the characters to take shelter.</moment>
+      <moment>The meadow is revealed to be enchanted, granting temporary powers.</moment>
+      <moment>Big Red leads the hens across the meadow on a great adventure.</moment>
+    </dramatic_moments>
+  </scene>
+  <scene>
+    <id>18</id>
+    <image_url>https://cdn.midjourney.com/d3043e75-ad5b-42ef-a019-2ef3a85f533e/0_1.png</image_url>
+    <scene_type>narrative</scene_type>
+    <setting>forest_path</setting>
+    <setting_description>A serene forest path made of cobblestones winds gently through a lush, green forest. Mist hangs in the air, giving the scene a mystical and tranquil atmosphere. Tall trees with varying hues of green dominate the landscape, their canopies forming a natural roof over the path.</setting_description>
+    <story_fit>This scene fits into the story as an enchanting and mysterious setting where the Yorkies begin a new adventure, potentially discovering hidden paths or encountering unexpected allies or adversaries.</story_fit>
+    <image_details>
+      <width>896</width>
+      <height>1344</height>
+      <format>PNG</format>
+      <size_bytes>2117688</size_bytes>
+    </image_details>
+    <dramatic_moments>
+      <moment>Pawel and Pawleen discover a secret tunnel hidden beneath the cobblestones.</moment>
+      <moment>A sudden fog thickens, obscuring the path and leading the Yorkies to a new, unexplored part of the forest.</moment>
+      <moment>The sound of rustling leaves alerts the Yorkies to the presence of the Rat Wizard spying on them.</moment>
+      <moment>The squirrels lay a trap along the path, challenging the Yorkies' cleverness.</moment>
+      <moment>Encounter with a wise, neutral forest spirit that offers guidance or warnings.</moment>
+    </dramatic_moments>
+  </scene>
+  <scene>
+    <id>19</id>
+    <image_url>https://cdn.midjourney.com/131bfab8-8de7-4397-8cce-5e9517c9a8b4/0_1.png</image_url>
+    <scene_type>narrative</scene_type>
+    <setting>forest_homestead_pasture</setting>
+    <setting_description>A cheerful scene on a bright and grassy pasture within the forest homestead. Pawel, the Yorkshire Terrier, stands proudly with two of the clever hens, perhaps Birdadette and Henrietta, by his side. They seem to be collaborating in a peaceful moment, surrounded by lush green grass.</setting_description>
+    <story_fit>This scene highlights the camaraderie between Pawel and the chickens, showcasing their cooperative nature in maintaining the peace and security of their homestead. It could be an introduction to a day of adventure or problem-solving.</story_fit>
+    <image_details>
+      <width>1024</width>
+      <height>1024</height>
+      <format>PNG</format>
+      <size_bytes>1119407</size_bytes>
+    </image_details>
+    <dramatic_moments>
+      <moment>A sudden rustle in the grass hints at the approach of villainous squirrels.</moment>
+      <moment>The discovery of a mysterious footprint nearby starts a new adventure.</moment>
+      <moment>An unexpected sound alerts everyone to potential danger in the forest.</moment>
+    </dramatic_moments>
+  </scene>
+  <scene>
+    <id>8</id>
+    <image_url>https://cdn.midjourney.com/6e5e9ee4-b3b7-4ec2-840b-ba6990b2ce41/0_0.png</image_url>
+    <scene_type/>
+    <setting/>
+    <setting_description/>
+    <story_fit/>
+    <image_details>
+      <width>896</width>
+      <height>1344</height>
+      <format>PNG</format>
+      <size_bytes>1968222</size_bytes>
+    </image_details>
+    <dramatic_moments/>
+  </scene>
+  <scene>
+    <id>24</id>
+    <image_url>https://cdn.midjourney.com/bf85f039-f7b8-458f-8991-f3b3ee32828d/0_1.png</image_url>
+    <scene_type>narrative</scene_type>
+    <setting>ancient tunnel entrance in a forest</setting>
+    <setting_description>The image shows an old, moss-covered tunnel entrance with intricate stone carvings, framed by lush greenery. The path leading into the tunnel is overgrown with grass and bushes, suggesting it's rarely used and hidden deep within a forest.</setting_description>
+    <story_fit>This mysterious tunnel could serve as a pivotal location in the adventure, perhaps leading to an underground lair of the Rat Wizard or a secret squirrel hideout. It might also be a passageway to a hidden part of the forest, filled with new allies or challenges.</story_fit>
+    <image_details>
+      <width>1232</width>
+      <height>928</height>
+      <format>PNG</format>
+      <size_bytes>3010923</size_bytes>
+    </image_details>
+    <dramatic_moments>
+      <moment>Pawel and Pawleen decide whether to enter the unknown tunnel.</moment>
+      <moment>An ambush by the squirrel villains is set at the tunnel entrance.</moment>
+      <moment>Discovery of mysterious symbols inside the tunnel leading to a new quest.</moment>
+      <moment>An encounter with other forest creatures guarding the entrance to the tunnel.</moment>
+      <moment>A choice moment where the Yorkies split up to explore different paths inside.</moment>
+    </dramatic_moments>
+  </scene>
+  <scene>
+    <id>25</id>
+    <image_url>https://cdn.midjourney.com/40ab03c2-a56c-4418-ab10-ad3cad37e818/0_0.png</image_url>
+    <scene_type>narrative</scene_type>
+    <setting>mysterious tunnel in the forest</setting>
+    <setting_description>An ornate tunnel entrance blending into the forest with intricate architectural designs, creating a mysterious allure. It is surrounded by a lush, green forest, and the tunnel itself seems dark and inviting, hinting at secrets within.</setting_description>
+    <story_fit>This scene could serve as a gateway to hidden areas of the forest or as a passageway leading to the Rat Wizard’s lair. It could also harbor secrets related to the squirrel gangs and their underground channels.</story_fit>
+    <image_details>
+      <width>1232</width>
+      <height>928</height>
+      <format>PNG</format>
+      <size_bytes>2791088</size_bytes>
+    </image_details>
+    <dramatic_moments>
+      <moment>The Yorkies discover a hidden passage leading to the squirrel gang’s headquarters.</moment>
+      <moment>The chickens follow a trail of seeds into the tunnel, leading to a surprising discovery.</moment>
+      <moment>The tunnel collapses partially, trapping the heroes inside and forcing them to find a new way out.</moment>
+      <moment>A confrontation with the Rat Wizard occurs as the Yorkies explore deeper within the tunnel.</moment>
+    </dramatic_moments>
+  </scene>
+  <scene>
+    <id>27</id>
+    <image_url>https://cdn.midjourney.com/6ccfd0e2-9fe8-4cc3-a5d0-9e3325b86488/0_0.png</image_url>
+    <scene_type>narrative</scene_type>
+    <setting>stone archway in an open landscape</setting>
+    <setting_description>The image depicts a stone archway leading into a picturesque landscape. The sky is bright with fluffy clouds, and the path is flanked by three cypress trees, stretching towards a distant horizon with rolling hills.</setting_description>
+    <story_fit>This scene serves as a magical portal or gateway that the Yorkshire Terriers, Pawel and Pawleen, might discover during their adventures. It hints at new places to explore and mysteries to unravel.</story_fit>
+    <image_details>
+      <width>1232</width>
+      <height>928</height>
+      <format>PNG</format>
+      <size_bytes>2380011</size_bytes>
+    </image_details>
+    <dramatic_moments>
+      <moment>Pawel and Pawleen discover the archway and decide to explore the path beyond.</moment>
+      <moment>The archway glows with a mysterious light, beckoning the characters to enter.</moment>
+      <moment>Upon entering, the Yorkies find themselves in a new, uncharted territory with unfamiliar challenges.</moment>
+      <moment>A sudden storm begins to form as they pass through the archway, suggesting a pivotal moment of change.</moment>
+      <moment>The squirrels attempt to block the archway, fearing what lies beyond.</moment>
+    </dramatic_moments>
+  </scene>
+  <scene>
+    <id>31</id>
+    <image_url>https://cdn.midjourney.com/fefbb997-56be-4782-9414-08c26dce742f/0_3.png</image_url>
+    <scene_type>narrative</scene_type>
+    <setting>forest clearing with shelter</setting>
+    <setting_description>A tranquil forest clearing featuring a makeshift shelter constructed from logs and branches. Tall trees surround the area, and there is a small reflective pond in the foreground. The sky is blue with fluffy clouds, casting dappled light on the scene.</setting_description>
+    <story_fit>This scene could serve as a hidden retreat for the Yorkshire Terriers, Pawel and Pawleen, or a mysterious location tied to the Rat Wizard. It might be a refuge or a temporary hiding spot.</story_fit>
+    <image_details>
+      <width>896</width>
+      <height>1344</height>
+      <format>PNG</format>
+      <size_bytes>2543515</size_bytes>
+    </image_details>
+    <dramatic_moments>
+      <moment>The discovery of clues leading to the Rat Wizard's lair.</moment>
+      <moment>A surprise encounter with a gang of squirrels.</moment>
+      <moment>A storm approaching, forcing the characters to take shelter.</moment>
+      <moment>Finding a hidden treasure or artifact important to the storyline.</moment>
+      <moment>A negotiation between forest factions occurring in the clearing.</moment>
+    </dramatic_moments>
+  </scene>
+  <scene>
+    <id>39</id>
+    <image_url>https://cdn.midjourney.com/50e9f6b2-29b9-494a-bbb6-119d2ec2b84f/0_2.png</image_url>
+    <scene_type>narrative</scene_type>
+    <setting>daytime on Uncle Mark's forest farm</setting>
+    <setting_description>Three lively chickens are in the foreground, seemingly excited or alert. The sky is bright blue with fluffy clouds, suggesting a cheerful day.</setting_description>
+    <story_fit>This scene showcases the chickens' awareness, hinting at something happening on the farm that requires attention, possibly an alert to Pawel and Pawleen.</story_fit>
+    <image_details>
+      <width>896</width>
+      <height>1344</height>
+      <format>PNG</format>
+      <size_bytes>1575102</size_bytes>
+    </image_details>
+    <dramatic_moments>
+      <moment>The chickens spot the Rat Wizard sneaking around the farm.</moment>
+      <moment>An unexpected squirrel invasion catches the farm animals by surprise.</moment>
+      <moment>Pawel and Pawleen race into action as the chickens alert them to trouble.</moment>
+    </dramatic_moments>
+  </scene>
+  <scene>
+    <id>41</id>
+    <image_url>https://cdn.midjourney.com/63074cdc-50e2-4d3b-bca8-c58699f354cf/0_0.png</image_url>
+    <scene_type>narrative</scene_type>
+    <setting>barnyard</setting>
+    <setting_description>A wooden barn interior with a group of colorful, animated chickens gathered together. The scene is bright and cheerful, with hay and grass beneath them and plants adorning the edges.</setting_description>
+    <story_fit>This scene fits into the story as a gathering moment for the chickens to discuss a new plan or react to a recent event. It might be the aftermath of an attack by the squirrels or a moment of unity among the chickens.</story_fit>
+    <image_details>
+      <width>1424</width>
+      <height>848</height>
+      <format>PNG</format>
+      <size_bytes>1709386</size_bytes>
+    </image_details>
+    <dramatic_moments>
+      <moment>The chickens receive news of a squirrel ambush.</moment>
+      <moment>A vote among the chickens to decide on a new leader.</moment>
+      <moment>An unexpected visitor disrupts the meeting.</moment>
+      <moment>The arrival of Pawel and Pawleen with important information.</moment>
+      <moment>A comical mishap involving Big Red, leading to laughter.</moment>
+    </dramatic_moments>
+  </scene>
+  <scene>
+    <id>42</id>
+    <image_url>https://cdn.midjourney.com/bae5eca9-046f-4079-beba-cc9236ea430c/0_3.png</image_url>
+    <scene_type>narrative</scene_type>
+    <setting>mountain_valley</setting>
+    <setting_description>The scene depicts a serene mountain valley with towering, jagged peaks in the background, partially covered in snow. Rolling, lush green hills lead down to a clear, blue stream that meanders through the landscape. The sky is bright and clear, dotted with puffy white clouds. Sparse trees with verdant foliage are scattered throughout the valley, adding to the richness of the scene.</setting_description>
+    <story_fit>This setting serves as the perfect backdrop for Pawel and Pawleen's adventurous journey. It could be a place they must traverse to uncover a hidden secret or rescue a fellow animal from one of the villainous squirrels or the Rat Wizard.</story_fit>
+    <image_details>
+      <width>896</width>
+      <height>1344</height>
+      <format>PNG</format>
+      <size_bytes>2281787</size_bytes>
+    </image_details>
+    <dramatic_moments>
+      <moment>Pawel and Pawleen must navigate the treacherous rocks of the stream to reach an important destination.</moment>
+      <moment>An unexpected storm approaches, forcing the heroes to find shelter quickly.</moment>
+      <moment>The Yorkies encounter a trapped chicken by the stream and must devise a clever plan to rescue it.</moment>
+      <moment>A group of mischievous squirrels ambushes the duo from the trees.</moment>
+      <moment>The peaceful valley becomes a battleground as the Rat Wizard's magic affects the environment.</moment>
+    </dramatic_moments>
+  </scene>
+  <scene>
+    <id>44</id>
+    <image_url>https://cdn.midjourney.com/1e7f75bd-65e7-49d8-941b-e4a3d904309e/0_1.png</image_url>
+    <scene_type>setting</scene_type>
+    <setting>meadow</setting>
+    <setting_description>A vibrant, colorful meadow in full bloom with a variety of wildflowers. The scene includes tall trees framing the meadow, a backdrop of mountains, and a blue sky with fluffy clouds.</setting_description>
+    <story_fit>This meadow could be a meeting place or a tranquil retreat for the characters. It might be where Pawel and Pawleen gather allies or take a moment to relax.</story_fit>
+    <image_details>
+      <width>1792</width>
+      <height>672</height>
+      <format>PNG</format>
+      <size_bytes>2215528</size_bytes>
+    </image_details>
+    <dramatic_moments>
+      <moment>A surprise encounter with a mysterious character.</moment>
+      <moment>The revelation of a hidden path leading deeper into the forest.</moment>
+      <moment>A sudden change in weather, disrupting a peaceful moment.</moment>
+      <moment>Discovery of a rare flower that could help in their quest.</moment>
+      <moment>A chase scene involving the Yorkies and a gang of squirrels.</moment>
+    </dramatic_moments>
+  </scene>
+  <scene>
+    <id>45</id>
+    <image_url>https://cdn.midjourney.com/0653f0e6-cfe3-4c3e-b741-bde812441126/0_2.png</image_url>
+    <scene_type>narrative</scene_type>
+    <setting>forest_clearing</setting>
+    <setting_description>A serene forest clearing under a calm yellow sky. Tall, dense pine trees surround a small pond at the center. A large, intricate beaver dam constructed from branches is prominently displayed. The scene evokes a tranquil, natural atmosphere.</setting_description>
+    <story_fit>This setting is ideal for introducing a mysterious new location that Pawel and Pawleen come across in their explorations. The beaver dam could be inhabited by an unexpected character or hold secrets that impact the forest dynamics.</story_fit>
+    <image_details>
+      <width>1424</width>
+      <height>848</height>
+      <format>PNG</format>
+      <size_bytes>1870082</size_bytes>
+    </image_details>
+    <dramatic_moments>
+      <moment>Pawel and Pawleen hear strange noises coming from the dam, prompting an investigation.</moment>
+      <moment>A sudden disturbance in the water reveals hidden dangers or treasures.</moment>
+      <moment>A chase scene with the villainous squirrels trying to sabotage the dam.</moment>
+      <moment>The discovery of an ally or neutral character residing in the dam who can aid the Yorkies.</moment>
+      <moment>A dramatic confrontation occurs between the forest animals over control of the water supply.</moment>
+    </dramatic_moments>
+  </scene>
+  <scene>
+    <id>51</id>
+    <image_url>https://cdn.midjourney.com/32ee4a7a-1d98-4732-adcf-588f4fb024f0/0_3.png</image_url>
+    <scene_type>setting</scene_type>
+    <setting>Uncle Mark's forest farm</setting>
+    <setting_description>A rustic farm scene with a large, wooden barn and several small outbuildings surrounded by lush greenery. Chickens are wandering through a flooded area, basking under the bright blue sky, dotted with fluffy white clouds. Large trees frame the farm, creating a peaceful and inviting atmosphere.</setting_description>
+    <story_fit>This setting establishes the tranquil home base for Pawel, Pawleen, and the other animal characters. It's an idyllic backdrop that contrasts with the potential chaos introduced by the villainous squirrels and Rat Wizard.</story_fit>
+    <image_details>
+      <width>1456</width>
+      <height>816</height>
+      <format>PNG</format>
+      <size_bytes>2341677</size_bytes>
+    </image_details>
+    <dramatic_moments>
+      <moment>A sudden flood threatens to trap some of the chickens and test Pawel and Pawleen's rescue skills.</moment>
+      <moment>The arrival of squirrels trying to steal chicken eggs.</moment>
+      <moment>A chase scene between the Yorkies and a gang of sneaky squirrels.</moment>
+      <moment>A misty morning providing cover for the Rat Wizard to commit mischief.</moment>
+      <moment>A gathering of the farm animals to strategize against the squirrel menace.</moment>
+    </dramatic_moments>
+  </scene>
+  <scene>
+    <id>52</id>
+    <image_url>https://cdn.midjourney.com/2c0e3a57-c95d-44d7-accd-eeceb5716818/0_1.png</image_url>
+    <scene_type>narrative</scene_type>
+    <setting>Uncle Mark's Farm</setting>
+    <setting_description>The scene depicts a rustic and tranquil farm setting. A modern farm structure, seemingly a barn, is visible. Lush greenery surrounds the area with a serene pond reflecting the blue sky. Chickens are seen roaming and one appears to be in mid-flight. Large trees with moss drape over the scene, adding to the farm’s old-world charm. In the distance, a church can be seen, adding a quaint village feel.</setting_description>
+    <story_fit>This scene sets the stage for Pawel and Pawleen's latest adventure. The idyllic farm backdrop provides a starting point for exploring the happenings at Uncle Mark’s farm and the interactions between the animals. The sight of a chicken in mid-flight could be a humorous or mysterious element that the Yorkshire Terriers choose to investigate.</story_fit>
+    <image_details>
+      <width>1456</width>
+      <height>816</height>
+      <format>PNG</format>
+      <size_bytes>2043254</size_bytes>
+    </image_details>
+    <dramatic_moments>
+      <moment>Pawel and Pawleen witness the unusual sight of a chicken apparently flying.</moment>
+      <moment>A mischievous squirrel tries to cause chaos among the farm animals.</moment>
+      <moment>A mysterious noise from the barn prompts an investigation by the Yorkies.</moment>
+      <moment>Henrietta the chicken shares a cryptic warning about strange happenings on the farm.</moment>
+      <moment>A sudden storm forces all the animals to take shelter, revealing hidden secrets.</moment>
+    </dramatic_moments>
+  </scene>
+  <scene>
+    <id>53</id>
+    <image_url>https://cdn.midjourney.com/7e52c6ed-34fc-414c-9a78-df9cf8bad27a/0_1.png</image_url>
+    <scene_type>narrative</scene_type>
+    <setting>Uncle Mark's Farm</setting>
+    <setting_description>A picturesque and vibrant autumn landscape featuring rolling hills and a large barn. Chickens and turkeys roam the fields under a vivid, blue sky. The colorful foliage of trees surrounds the area, providing a serene and welcoming atmosphere.</setting_description>
+    <story_fit>This scene sets the stage for a typical day at Uncle Mark's farm, with opportunities for the Yorkies to explore and encounter both friends and foes. It captures the beauty and tranquility of the farm while hinting at potential adventures.</story_fit>
+    <image_details>
+      <width>1456</width>
+      <height>816</height>
+      <format>PNG</format>
+      <size_bytes>1779371</size_bytes>
+    </image_details>
+    <dramatic_moments>
+      <moment>Pawel and Pawleen spot a sneaky squirrel planning to steal eggs and must devise a plan to stop it.</moment>
+      <moment>Big Red tries to assert dominance among the chickens, leading to a humorous confrontation with Pawel.</moment>
+      <moment>A sudden storm approaches, challenging the animals to find shelter and work together.</moment>
+      <moment>The Yorkies discover an unusual object in the fields and need to investigate its origin.</moment>
+      <moment>The Rat Wizard's spell accidentally affects the weather, causing chaos throughout the farm.</moment>
+    </dramatic_moments>
+  </scene>
+  <scene>
+    <id>54</id>
+    <image_url>https://cdn.midjourney.com/b95793f2-6398-4a6e-a535-20013cf3770a/0_2.png</image_url>
+    <scene_type>setting</scene_type>
+    <setting>Uncle Mark's Farm</setting>
+    <setting_description>The image depicts a bright and sunny day at Uncle Mark's Farm. A picturesque rural landscape stretches across the scene, complete with two red barns nestled among rolling green hills. The foreground showcases a winding country road bordered by vibrant, flower-filled fields. A wooden fence marks the territory's boundary, leading the eye toward grazing cows scattered across the lush pastures under a clear, blue sky dotted with fluffy clouds. A welcoming sign reading 'Uncle Mark's Farm' stands prominently, setting the tone for a classic farm adventure.</setting_description>
+    <story_fit>This serene farm setting serves as the backdrop for the Yorkshire Terriers' adventures. It's the home base from which Pawel and Pawleen embark on their journeys, interacting with various farm animals and facing new challenges. This setting conveys a sense of warmth and community.</story_fit>
+    <image_details>
+      <width>1456</width>
+      <height>816</height>
+      <format>PNG</format>
+      <size_bytes>2032062</size_bytes>
+    </image_details>
+    <dramatic_moments>
+      <moment>Pawel and Pawleen notice strange footprints leading into the barn, sparking a mystery.</moment>
+      <moment>A sudden storm threatens to scatter the animals, and the Yorkies must rally them to safety.</moment>
+      <moment>A group of mischievous squirrels plot to steal feed from the barn, and the Yorkies must thwart them.</moment>
+      <moment>An unexpected visitor arrives at the farm, bringing news of adventures beyond the hills.</moment>
+      <moment>A new animal character gets stuck in the fence, and Pawel and Pawleen must devise a clever rescue plan.</moment>
+    </dramatic_moments>
+  </scene>
+  <scene>
+    <id>58</id>
+    <image_url>https://cdn.midjourney.com/30c86979-22bc-4885-a7c9-7fe7a2f8dfc5/0_3.png</image_url>
+    <scene_type>narrative</scene_type>
+    <setting>Uncle Mark's Forest Farm</setting>
+    <setting_description>A vibrant landscape with lush green pastures, a red-roofed house, and barns, surrounded by distant mountains. Chickens are roaming freely across the grassy fields under a bright blue sky, dotted with clouds and flying birds. Trees with thick foliage line the scene, and fences demarcate parts of the farm.</setting_description>
+    <story_fit>This scene serves as the peaceful backdrop for the adventures of Pawel and Pawleen. It sets up the serene environment in which they live and protect, often disrupted by the villainous squirrels or mystical creatures like the Rat Wizard.</story_fit>
+    <image_details>
+      <width>2176</width>
+      <height>544</height>
+      <format>PNG</format>
+      <size_bytes>1566940</size_bytes>
+    </image_details>
+    <dramatic_moments>
+      <moment>Quiet day on the farm.</moment>
+    </dramatic_moments>
+  </scene>
+  <scene>
+    <id>59</id>
+    <image_url>https://cdn.midjourney.com/30c86979-22bc-4885-a7c9-7fe7a2f8dfc5/0_3.png</image_url>
+    <scene_type>narrative</scene_type>
+    <setting>Uncle Mark's Forest Farm</setting>
+    <setting_description>The scene depicts a pastoral view of Uncle Mark's forest farm. Rolling green hills stretch into the distance, with a backdrop of majestic mountains. Two barns are visible with red roofs, surrounded by trees and clear blue skies. Chickens roam freely, grazing in the lush meadows past a wooden fence. The area is tranquil, dotted with bright wildflowers and shaded by large trees.</setting_description>
+    <story_fit>This scene sets the peaceful and vibrant environment of Uncle Mark's farm, highlighting the freedom with which the chickens roam. It sets up an idyllic starting point before introducing challenges from the villains such as the squirrels or the Rat Wizard.</story_fit>
+    <image_details>
+      <width>2176</width>
+      <height>544</height>
+      <format>PNG</format>
+      <size_bytes>1566940</size_bytes>
+    </image_details>
+    <dramatic_moments/>
+  </scene>
+  <scene>
+    <id>62</id>
+    <image_url>https://cdn.midjourney.com/13434888-c71f-481d-bc25-cb48dcc1ff5a/0_0.png</image_url>
+    <scene_type>narrative</scene_type>
+    <setting>farmyard</setting>
+    <setting_description>A sunny farmyard scene with a small coop or building with a red roof and a flag, surrounded by greenery and a few chickens. Two trees frame the scene, and a wall encloses the area, giving it a cozy and secure feeling.</setting_description>
+    <story_fit>This scene sets the stage for life in Uncle Mark's farm, where the chickens and Yorkies live harmoniously. It could be a peaceful moment before the arrival of a new character or a looming conflict.</story_fit>
+    <image_details>
+      <width>1728</width>
+      <height>688</height>
+      <format>PNG</format>
+      <size_bytes>1628839</size_bytes>
+    </image_details>
+    <dramatic_moments>
+      <moment>Chickens react to an approaching threat, like a squirrel sneaking along the wall.</moment>
+      <moment>An unexpected visitor arrives over the wall, startling the chickens.</moment>
+      <moment>A dispute arises among the chickens, leading to a lively squabble.</moment>
+      <moment>A treasure or mysterious object is discovered near the coop.</moment>
+      <moment>The Yorkies make a sudden entrance, causing a flurry of excitement.</moment>
+    </dramatic_moments>
+  </scene>
+  <scene>
+    <id>65</id>
+    <image_url>https://cdn.midjourney.com/47659fc2-1407-45e8-b031-7ddcbf05c6cc/0_1.png</image_url>
+    <scene_type>action</scene_type>
+    <setting>squirrel gathering</setting>
+    <setting_description>A vibrant meeting of squirrels is taking place on a sturdy branch amidst an autumnal forest. The squirrels display a range of colors, including blue, orange, white, and brown, indicating diversity in their group. Leaves of gold and orange flutter in the backdrop, adding a sense of season and change.</setting_description>
+    <story_fit>This scene represents a gathering of the squirrel gang, likely planning their next mischief or discussing territory matters. The presence of different colored squirrels can hint at various factions or roles within their society.</story_fit>
+    <image_details>
+      <width>2176</width>
+      <height>544</height>
+      <format>PNG</format>
+      <size_bytes>2221090</size_bytes>
+    </image_details>
+    <dramatic_moments>
+      <moment>A heated debate breaks out among the squirrels over leadership.</moment>
+      <moment>A secret plan to raid Uncle Mark's chicken coop is revealed.</moment>
+      <moment>One squirrel challenges the authority of their current leader.</moment>
+      <moment>The arrival of a mysterious, outsider squirrel causes tension.</moment>
+      <moment>A scout reports, leading to urgent plotting.</moment>
+    </dramatic_moments>
+  </scene>
+</scenes>
