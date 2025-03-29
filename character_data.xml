@@ -1,0 +1,982 @@
+<?xml version="1.0" ?>
+<characters>
+  <character>
+    <id>15</id>
+    <image_url>https://cdn.midjourney.com/2ea17ddd-6e28-42ea-8d8b-f80e3ccc6348/0_1.png</image_url>
+    <character_name>Skyler</character_name>
+    <character_role>hero</character_role>
+    <image_details>
+      <width>1024</width>
+      <height>1024</height>
+      <format>PNG</format>
+      <size_bytes>1632003</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>adventurous</trait>
+      <trait>fearless</trait>
+      <trait>resourceful</trait>
+      <trait>curious</trait>
+      <trait>loyal</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Skyler discovers a hidden city conspiracy involving the squirrels.</plot>
+      <plot>Skyler helps the Yorkies solve a mystery in the city.</plot>
+      <plot>Skyler returns to the forest homestead with new urban survival skills.</plot>
+      <plot>Skyler forms an alliance with city birds to help the Yorkies.</plot>
+      <plot>Skyler must navigate a city filled with robotic guards.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>14</id>
+    <image_url>https://cdn.midjourney.com/05d763fc-21f0-4ca6-8a13-d2cc1ed2513a/0_3.png</image_url>
+    <character_name>Professor Pawbridge</character_name>
+    <character_role>hero</character_role>
+    <image_details>
+      <width>1024</width>
+      <height>1024</height>
+      <format>PNG</format>
+      <size_bytes>1567452</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>intelligent</trait>
+      <trait>curious</trait>
+      <trait>resourceful</trait>
+      <trait>wise</trait>
+      <trait>kind-hearted</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Discovers an ancient map leading to a hidden treasure in the forest.</plot>
+      <plot>Invents a new device to protect the homestead from squirrel raids.</plot>
+      <plot>Solves the mystery of the disappearing eggs with his analytical skills.</plot>
+      <plot>Helps the Yorkies understand an ancient book they found in the woods.</plot>
+      <plot>Teams up with Pawel and Pawleen to outsmart the Rat Wizard.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>6</id>
+    <image_url>https://cdn.midjourney.com/35ed7155-c07a-4e15-bbf7-87071c6b8cd1/0_0.png</image_url>
+    <character_name>King Pawlence the Regal</character_name>
+    <character_role>Hero</character_role>
+    <image_details>
+      <width>896</width>
+      <height>1344</height>
+      <format>PNG</format>
+      <size_bytes>2855470</size_bytes>
+    </image_details>
+    <character_traits/>
+    <plot_lines/>
+  </character>
+  <character>
+    <id>9</id>
+    <image_url>https://cdn.midjourney.com/caaa72a7-29d8-440c-9b81-cd017f99789d/0_0.png</image_url>
+    <character_name>Tiny Paws</character_name>
+    <character_role>Hero</character_role>
+    <image_details>
+      <width>928</width>
+      <height>1232</height>
+      <format>PNG</format>
+      <size_bytes>1969102</size_bytes>
+    </image_details>
+    <character_traits/>
+    <plot_lines>
+      <plot>Tiny Paws discovers a hidden passageway in the forest leading to a secret squirrel hideout.</plot>
+      <plot>The Yorkies enlist Tiny Paws to help them retrieve a stolen egg from the Rat Wizard.</plot>
+      <plot>Tiny Paws leads a mission to rescue a turkey stuck in the fence.</plot>
+      <plot>Pawel and Pawleen train Tiny Paws to be the newest protector of the homestead.</plot>
+      <plot>Tiny Paws uncovers a secret map that leads to a hidden treasure within the pasture.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>20</id>
+    <image_url>https://cdn.midjourney.com/7b68fab2-6d5f-4ab3-abcd-9f5cbca8e0d7/0_2.png</image_url>
+    <character_name>Squeaky McSnarl</character_name>
+    <character_role>villain</character_role>
+    <image_details>
+      <width>896</width>
+      <height>1344</height>
+      <format>PNG</format>
+      <size_bytes>1279079</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>cunning</trait>
+      <trait>mischievous</trait>
+      <trait>arrogant</trait>
+      <trait>devious</trait>
+      <trait>agile</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Squeaky McSnarl leads an army of squirrels to invade the chicken coop.</plot>
+      <plot>Pawel and Pawleen strategize to outsmart Squeaky in a walnut heist.</plot>
+      <plot>The Rat Wizard forms an uneasy alliance with Squeaky for a powerful potion.</plot>
+      <plot>A truce is suggested between Squeaky and the Yorkies to fight a common threat.</plot>
+      <plot>Squeaky McSnarl searches for a mysterious treasure hidden within the forest.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>23</id>
+    <image_url>https://cdn.midjourney.com/861db1bd-2d90-4561-949a-981128a6afa5/0_3.png</image_url>
+    <character_name>Shadowtail</character_name>
+    <character_role>villain</character_role>
+    <image_details>
+      <width>896</width>
+      <height>1344</height>
+      <format>PNG</format>
+      <size_bytes>891720</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>cunning</trait>
+      <trait>malevolent</trait>
+      <trait>strategic</trait>
+      <trait>agile</trait>
+      <trait>deceptive</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Shadowtail leads a gang of squirrels planning a heist on the homestead's food supply.</plot>
+      <plot>Pawel and Pawleen must outsmart Shadowtail to retrieve stolen goods.</plot>
+      <plot>Shadowtail creates traps for the Yorkies in the forest.</plot>
+      <plot>The chickens enlist Pawel and Pawleen's help to deal with Shadowtail's constant harassment.</plot>
+      <plot>Shadowtail's activities catch the attention of the mysterious Rat Wizard, leading to an unexpected alliance.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>32</id>
+    <image_url>https://cdn.midjourney.com/8f2ed16f-e3e0-4e25-af8d-bca6fba28d39/0_0.png</image_url>
+    <character_name>Buckley</character_name>
+    <character_role>neutral</character_role>
+    <image_details>
+      <width>896</width>
+      <height>1344</height>
+      <format>PNG</format>
+      <size_bytes>1029831</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>gentle</trait>
+      <trait>observant</trait>
+      <trait>curious</trait>
+      <trait>graceful</trait>
+      <trait>thoughtful</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Buckley helps the Yorkies find a secret path through the forest.</plot>
+      <plot>Buckley warns the forest animals of an upcoming storm.</plot>
+      <plot>Buckley gets entangled with the squirrel gang's schemes but seeks Pawel and Pawleen's help.</plot>
+      <plot>Buckley discovers a hidden glade with unique herbs.</plot>
+      <plot>Buckley assists in evading the Rat Wizard's traps.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>21</id>
+    <image_url>https://cdn.midjourney.com/8c99fce9-1cb5-41da-bd57-28f7e0bc4cd7/0_1.png</image_url>
+    <character_name>Slink the Squirrel</character_name>
+    <character_role>villain</character_role>
+    <image_details>
+      <width>896</width>
+      <height>1344</height>
+      <format>PNG</format>
+      <size_bytes>1034507</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>cunning</trait>
+      <trait>mischievous</trait>
+      <trait>sly</trait>
+      <trait>quick-witted</trait>
+      <trait>arrogant</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Slink leads a gang of squirrels to raid the chicken coop.</plot>
+      <plot>Pawel and Pawleen devise a plan to outsmart Slink.</plot>
+      <plot>Slink discovers a hidden stash of food and plans to steal it.</plot>
+      <plot>Slink challenges the Yorkies to a game of wits.</plot>
+      <plot>A rare truce is formed between the Yorkies and Slink to fend off the Rat Wizard.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>33</id>
+    <image_url>https://cdn.midjourney.com/8f2ed16f-e3e0-4e25-af8d-bca6fba28d39/0_1.png</image_url>
+    <character_name>Darla the Deer</character_name>
+    <character_role>hero</character_role>
+    <image_details>
+      <width>896</width>
+      <height>1344</height>
+      <format>PNG</format>
+      <size_bytes>904466</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>gentle</trait>
+      <trait>curious</trait>
+      <trait>swift</trait>
+      <trait>observant</trait>
+      <trait>kind-hearted</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Darla discovers a hidden path in the forest that leads to a magical clearing.</plot>
+      <plot>She befriends Pawel and Pawleen, helping them find food during a scarce season.</plot>
+      <plot>Darla warns the farm about a nearby squirrel raid she overheard.</plot>
+      <plot>She gets caught in a trap meant for squirrels, prompting a rescue mission by the Yorkies.</plot>
+      <plot>Darla helps mediate a peace treaty between the chickens and squirrels.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>34</id>
+    <image_url>https://cdn.midjourney.com/19eeb18d-a9a8-479f-9285-ef7246aadf71/0_1.png</image_url>
+    <character_name>Rusty</character_name>
+    <character_role>hero</character_role>
+    <image_details>
+      <width>1024</width>
+      <height>1024</height>
+      <format>PNG</format>
+      <size_bytes>1410057</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>curious</trait>
+      <trait>adventurous</trait>
+      <trait>loyal</trait>
+      <trait>playful</trait>
+      <trait>innocent</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Rusty discovers a hidden path in the forest that leads to an unknown part of the farm.</plot>
+      <plot>Rusty teams up with the Yorkies to uncover the mysterious activities of the Rat Wizard.</plot>
+      <plot>Rusty finds a secret message in the grass that only he can decode.</plot>
+      <plot>Rusty helps the Yorkies devise a plan to outsmart the squirrel gangs.</plot>
+      <plot>Rusty's playful nature leads him to accidentally discover a hidden treasure under the farm.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>36</id>
+    <image_url>https://cdn.discordapp.com/attachments/1265031838511005797/1347604614547247225/quidbuckingham_Black_chicken_in_the_style_of_Disney_cartoon._f3a0f187-2d31-4cac-aee9-6d85f838dcd9.png?ex=67cc6e19&amp;is=67cb1c99&amp;hm=8f794302ff8fc4a35607ed7e236c58c4a974dd634a1cae2dfcd1e2f7aa73013d&amp;</image_url>
+    <character_name>Fluffernutter</character_name>
+    <character_role>hero</character_role>
+    <image_details>
+      <width>896</width>
+      <height>1344</height>
+      <format>PNG</format>
+      <size_bytes>2342192</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>alert</trait>
+      <trait>cautious</trait>
+      <trait>loyal</trait>
+      <trait>observant</trait>
+      <trait>resourceful</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Fluffernutter warns the Yorkies of a sneaky squirrel invasion.</plot>
+      <plot>Teams up with Birdadette to protect the nest from the Rat Wizard.</plot>
+      <plot>Discovers hidden tunnels made by the moles.</plot>
+      <plot>Leads a rescue mission to retrieve stolen eggs.</plot>
+      <plot>Unites the chicken coop in a defense strategy against the squirrels.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>37</id>
+    <image_url>https://cdn.discordapp.com/attachments/1265031838511005797/1347608644086136862/quidbuckingham_Black_chicken_in_the_style_of_Disney_cartoon._e4182199-f860-486b-a2fd-dcfb805e7af6.png?ex=67cc71da&amp;is=67cb205a&amp;hm=becb100ba69a41f6d33cd4d4f2f20f1ecfac6316874797921e0a8af0ce82532b&amp;</image_url>
+    <character_name>Speckles</character_name>
+    <character_role>hero</character_role>
+    <image_details>
+      <width>1024</width>
+      <height>1024</height>
+      <format>PNG</format>
+      <size_bytes>1653136</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>curious</trait>
+      <trait>energetic</trait>
+      <trait>loyal</trait>
+      <trait>clever</trait>
+      <trait>brave</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Speckles discovers a hidden path in the forest and leads the Yorkies on an adventure.</plot>
+      <plot>Speckles overhears the squirrels plotting and warns the chickens.</plot>
+      <plot>Speckles finds a mysterious object in the forest and needs help from Pawel and Pawleen to investigate.</plot>
+      <plot>Speckles helps the Yorkies rescue a trapped turkey in the forest.</plot>
+      <plot>Speckles organizes a clever strategy to defend the coop from the rat wizard.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>38</id>
+    <image_url>https://cdn.midjourney.com/4596aded-f776-4638-a24d-3117bf0ac723/0_2.png</image_url>
+    <character_name>Pawleen</character_name>
+    <character_role>hero</character_role>
+    <image_details>
+      <width>1024</width>
+      <height>1024</height>
+      <format>PNG</format>
+      <size_bytes>1397075</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>fearless</trait>
+      <trait>clever</trait>
+      <trait>thoughtful</trait>
+      <trait>curious</trait>
+      <trait>empathetic</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Pawleen discovers a hidden path in the forest and leads an expedition.</plot>
+      <plot>Pawleen uncovers the secret plan of the squirrels and devises a counter-strategy.</plot>
+      <plot>Pawleen mentors a young chick learning to lead.</plot>
+      <plot>Pawleen finds a magical artifact buried beneath the wheat fields.</plot>
+      <plot>Pawleen negotiates peace between the chickens and a mischievous fox.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>40</id>
+    <image_url>https://cdn.midjourney.com/c51269a3-a95c-44bf-b9b0-09f65f579e87/0_1.png</image_url>
+    <character_name>Slycrest</character_name>
+    <character_role>villain</character_role>
+    <image_details>
+      <width>1232</width>
+      <height>928</height>
+      <format>PNG</format>
+      <size_bytes>1607290</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>cunning</trait>
+      <trait>charismatic</trait>
+      <trait>deceptive</trait>
+      <trait>resourceful</trait>
+      <trait>manipulative</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Slycrest convinces the chickens to join his scheme against the Yorkies.</plot>
+      <plot>Slycrest poses as a chicken to learn secrets of the farm.</plot>
+      <plot>The Yorkies must expose Slycrest's true nature to save the chickens.</plot>
+      <plot>Slycrest forms an alliance with the Rat Wizard.</plot>
+      <plot>The chickens must choose between Slycrest and the Yorkies.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>43</id>
+    <image_url>https://cdn.midjourney.com/bc15ed55-35f3-4e5d-ad96-2052deb907e7/0_1.png</image_url>
+    <character_name>Pearl the Turkey Hen</character_name>
+    <character_role>neutral</character_role>
+    <image_details>
+      <width>1024</width>
+      <height>1024</height>
+      <format>PNG</format>
+      <size_bytes>641483</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>elegant</trait>
+      <trait>clumsy</trait>
+      <trait>curious</trait>
+      <trait>dumb</trait>
+      <trait>silly</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Pearl is captured by the rat wizard.</plot>
+      <plot>Pearl gets trapped and the Yorkies must mount a rescue.</plot>
+      <plot>Pearl goes missing.</plot>
+      <plot>Pawel and Pawleen save Pearl from her captors.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>46</id>
+    <image_url>https://cdn.midjourney.com/6472d661-0fca-49bd-bed5-3c8b8e29baa8/0_2.png</image_url>
+    <character_name>Cluckston</character_name>
+    <character_role>hero</character_role>
+    <image_details>
+      <width>1024</width>
+      <height>1024</height>
+      <format>PNG</format>
+      <size_bytes>1492194</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>brave</trait>
+      <trait>charismatic</trait>
+      <trait>protective</trait>
+      <trait>loyal</trait>
+      <trait>curious</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Cluckston rallies the other chickens to stand against a squirrel invasion.</plot>
+      <plot>He discovers a mysterious artifact in the forest and seeks the Yorkies' help.</plot>
+      <plot>Cluckston leads a rescue mission for trapped turkeys.</plot>
+      <plot>He challenges Big Red to improve the coop's defenses.</plot>
+      <plot>Cluckston becomes a mentor to younger chicks, teaching them farm survival tactics.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>48</id>
+    <image_url>https://cdn.midjourney.com/70d6e1c4-b092-4663-99f7-2c37012fbfd2/0_0.png</image_url>
+    <character_name>Skkriiiiik the Enchanter</character_name>
+    <character_role>villain</character_role>
+    <image_details>
+      <width>1024</width>
+      <height>1024</height>
+      <format>PNG</format>
+      <size_bytes>477026</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>mischievous</trait>
+      <trait>clever</trait>
+      <trait>charismatic</trait>
+      <trait>ambitious</trait>
+      <trait>mysterious</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Skkriiiiik is brewing a potion to control the squirrels.</plot>
+      <plot>Pawel and Pawleen must outsmart Skkriiiiik to retrieve stolen eggs.</plot>
+      <plot>Skkriiiiik forms an uneasy alliance with the Rat Wizard.</plot>
+      <plot>Skkriiiiik enchants the forest to keep intruders at bay, hindering the Yorkies' missions.</plot>
+      <plot>After a failed spell, Skkriiiiik seeks the chickens help, unveiling a new hidden enemy.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>49</id>
+    <image_url>https://cdn.midjourney.com/07b66f57-da80-47c9-9f99-6dcc11625fb3/0_0.png</image_url>
+    <character_name>Eeiiiikk the Enchanter</character_name>
+    <character_role>villain</character_role>
+    <image_details>
+      <width>1024</width>
+      <height>1024</height>
+      <format>PNG</format>
+      <size_bytes>404516</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>mischievous</trait>
+      <trait>evil</trait>
+      <trait>mysterious</trait>
+      <trait>intelligent</trait>
+      <trait>mean</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Eeiiiikk concocts a magical potion that causes mischief among the farm animals.</plot>
+      <plot>The Yorkies must decipher Eeiiiikk cryptic clues to find a hidden treasure.</plot>
+      <plot>Eeiiiikk steals eggs.</plot>
+      <plot>Eeiiiikk has conflicts with his cousins Skkriiiiik and others.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>50</id>
+    <image_url>https://cdn.midjourney.com/a7d5fe12-d982-453b-80a6-1de2da254d76/0_2.png</image_url>
+    <character_name>Sneaky Nutkin</character_name>
+    <character_role>villain</character_role>
+    <image_details>
+      <width>1024</width>
+      <height>1024</height>
+      <format>PNG</format>
+      <size_bytes>1291716</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>greedy</trait>
+      <trait>mischievous</trait>
+      <trait>cunning</trait>
+      <trait>resourceful</trait>
+      <trait>noisy</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Sneaky Nutkin devises a plan to steal food from the Yorkies' stash.</plot>
+      <plot>The Yorkies try to outsmart Sneaky Nutkin by setting up clever traps.</plot>
+      <plot>Sneaky Nutkin forms an alliance with the Rat Wizard for greater mischief.</plot>
+      <plot>Pawel and Pawleen discover a secret stash Sneaky Nutkin has hidden.</plot>
+      <plot>A showdown between the Yorkies and Sneaky Nutkin occurs over a stolen treasure.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>56</id>
+    <image_url>https://cdn.midjourney.com/124eaf00-4ba8-48d8-9e44-190daccea4ab/0_1.png</image_url>
+    <character_name>Sparky the Sneaky</character_name>
+    <character_role>villain</character_role>
+    <image_details>
+      <width>1024</width>
+      <height>1024</height>
+      <format>PNG</format>
+      <size_bytes>1662965</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>mischievous</trait>
+      <trait>sly</trait>
+      <trait>arrogant</trait>
+      <trait>cunning</trait>
+      <trait>playful</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Sparky leads a gang of squirrels to raid the chickens' coop.</plot>
+      <plot>Pawel and Pawleen must outsmart Sparky to retrieve stolen eggs.</plot>
+      <plot>Sparky creates a diversion to help the Rat Wizard escape.</plot>
+      <plot>A truce is negotiated, but Sparky has a hidden agenda.</plot>
+      <plot>Sparky challenges the Yorkies to a tree-climbing contest.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>57</id>
+    <image_url>https://cdn.midjourney.com/f2140d8a-32c0-47c0-85b9-c62128baa504/0_1.png</image_url>
+    <character_name>Snarler the Squirrel</character_name>
+    <character_role>villain</character_role>
+    <image_details>
+      <width>1024</width>
+      <height>1024</height>
+      <format>PNG</format>
+      <size_bytes>1780406</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>sly</trait>
+      <trait>mischievous</trait>
+      <trait>arrogant</trait>
+      <trait>cunning</trait>
+      <trait>trickster</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Snarler plots to steal the Yorkies' favorite chew toys.</plot>
+      <plot>He schemes to infiltrate the chicken coop for eggs.</plot>
+      <plot>Snarler leads a gang to cause chaos in the vegetable garden.</plot>
+      <plot>He tries to convince other animals to join his mischievous plans.</plot>
+      <plot>Snarler play off the other squirrels against each other.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>60</id>
+    <image_url>https://cdn.midjourney.com/84cab071-0f2c-42f3-b731-5ba0214eee1a/0_0.png</image_url>
+    <character_name>Skriiiiikiiiiikikiii</character_name>
+    <character_role>villain</character_role>
+    <image_details>
+      <width>1424</width>
+      <height>848</height>
+      <format>PNG</format>
+      <size_bytes>2144104</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>mean</trait>
+      <trait>arrogant</trait>
+      <trait>quick-tempered</trait>
+      <trait>bully</trait>
+      <trait>sneaky</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Skriiiii plots to steal all the acorns from the other rodents.</plot>
+      <plot>Skriiiii accidentally reveals a hidden underground tunnel created by the mice.</plot>
+      <plot>Skriiiii devises a plan to sabotage the Rat Wizard's spell to regain control of the woods.</plot>
+      <plot>Skriiiii is caught in his own trap and needs help from the Rat Wizard.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>61</id>
+    <image_url>https://cdn.midjourney.com/84cab071-0f2c-42f3-b731-5ba0214eee1a/0_2.png</image_url>
+    <character_name>Eiikiskiiichiiiik </character_name>
+    <character_role>villain</character_role>
+    <image_details>
+      <width>1424</width>
+      <height>848</height>
+      <format>PNG</format>
+      <size_bytes>1991440</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>cunning</trait>
+      <trait>ambitious</trait>
+      <trait>aggressive</trait>
+      <trait>manipulative</trait>
+      <trait>greedy</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Eiikiskiiichiiiik leads a gang of squirrels to take control of the forest's food supplies.</plot>
+      <plot>Eiikiskiiichiiiik challenges the Yorkies to a series of daring tests to prove who truly rules the forest.</plot>
+      <plot>The Rat Wizard seeks Eiikiskiiichiiiik to help in a sinister plot against the forest's residents.</plot>
+      <plot>Eiikiskiiichiiiik devises a plan to trap the chickens, causing chaos on the farm.</plot>
+      <plot>Eiikiskiiichiiiik and his gang bully the turkeys.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>63</id>
+    <image_url>https://cdn.midjourney.com/c8b46ac2-7dfe-46c3-8399-b991a7ef94ba/0_3.png</image_url>
+    <character_name>Waschbär Wizard</character_name>
+    <character_role>villain</character_role>
+    <image_details>
+      <width>1024</width>
+      <height>1024</height>
+      <format>PNG</format>
+      <size_bytes>1902810</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>cunning</trait>
+      <trait>mysterious</trait>
+      <trait>evil</trait>
+      <trait>charismatic</trait>
+      <trait>ambitious</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>He's searching for a magical artifact hidden in the forest that could control other animals.</plot>
+      <plot>Waschbär Wizard forms an uneasy alliance with the Rat Wizard, each seeking their own gain.</plot>
+      <plot>He devises a plan to outsmart the Yorkies and seize control of the farm.</plot>
+      <plot>Waschbär Wizard is very devious. His presence in the forest creates tension among all animal groups, forcing unexpected alliances.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>64</id>
+    <image_url>https://cdn.midjourney.com/c77f475f-bd39-445c-806c-c6c893a48d92/0_1.png</image_url>
+    <character_name>Rakaraka the Raccoon</character_name>
+    <character_role>villain</character_role>
+    <image_details>
+      <width>1024</width>
+      <height>1024</height>
+      <format>PNG</format>
+      <size_bytes>2070372</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>sneaky</trait>
+      <trait>mischievous</trait>
+      <trait>greedy</trait>
+      <trait>bold</trait>
+      <trait>territorial</trait>
+      <trait>bully</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Rakaraka teams up with the squirrels to raid the farm for food.</plot>
+      <plot>The Yorkies must outsmart Rakaraka to retrieve stolen goods.</plot>
+      <plot>Rakaraka creates a diversion to keep Pawel and Pawleen busy.</plot>
+      <plot>Rakaraka traps the turkeys in an amusing predicament.</plot>
+      <plot>Pawel and Pawleen discover Rakaraka and his hidden trash stash in the forest and he attacks them!</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>55</id>
+    <image_url>https://cdn.midjourney.com/124eaf00-4ba8-48d8-9e44-190daccea4ab/0_2.png</image_url>
+    <character_name>Scowler Squirrel</character_name>
+    <character_role>villain</character_role>
+    <image_details>
+      <width>1024</width>
+      <height>1024</height>
+      <format>PNG</format>
+      <size_bytes>1906859</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>arrogant</trait>
+      <trait>cunning</trait>
+      <trait>territorial</trait>
+      <trait>quick-tempered</trait>
+      <trait>sneaky</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Scowler Squirrel teams up with the Rat Wizard to steal eggs from the chickens.</plot>
+      <plot>Pawel and Pawleen attempt to reclaim stolen goods from Scowler's lair.</plot>
+      <plot>The chickens devise a plan to outsmart Scowler and protect their coop.</plot>
+      <plot>Scowler challenges the Yorkies to a battle of wits, trying to prove squirrel supremacy.</plot>
+      <plot>A forest showdown where Scowler manipulates smaller critters to aid in his schemes.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>4</id>
+    <image_url>https://cdn.midjourney.com/4c2408fd-88d6-4645-acfe-c02717c5acbf/0_2.png</image_url>
+    <character_name>Sneaky Scratch</character_name>
+    <character_role>villain</character_role>
+    <image_details>
+      <width>1024</width>
+      <height>1024</height>
+      <format>PNG</format>
+      <size_bytes>1102430</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>cunning</trait>
+      <trait>mischievous</trait>
+      <trait>greedy</trait>
+      <trait>resourceful</trait>
+      <trait>scheming</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Sneaky Scratch orchestrates a heist to steal all the eggs in the farm while distracting the Yorkies with a fake squirrel attack.</plot>
+      <plot>The Yorkies must outsmart Sneaky Scratch in a battle of wits to retrieve the eggs.</plot>
+      <plot>Sneaky Scratch challenges the chick leaders to a bet, aiming to trick them into losing their precious eggs.</plot>
+      <plot>The Yorkies discover Sneaky Scratch's secret stash of stolen goods and plan a raid.</plot>
+      <plot>Sneaky Scratch teams up with the Rat Wizard, forming a formidable alliance against the heroes.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>66</id>
+    <image_url>https://cdn.midjourney.com/f66fa60f-b716-4822-89a7-b55d9cc9f15b/0_0.png</image_url>
+    <character_name>Pawleen</character_name>
+    <character_role>hero</character_role>
+    <image_details>
+      <width>896</width>
+      <height>1344</height>
+      <format>PNG</format>
+      <size_bytes>2312586</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>thoughtful</trait>
+      <trait>fearless</trait>
+      <trait>curious</trait>
+      <trait>observant</trait>
+      <trait>cautious</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Pawleen discovers a secret tunnel that leads to the squirrel's treasure.</plot>
+      <plot>Pawleen encounters a lost chicken while exploring a tunnel.</plot>
+      <plot>Pawleen sets out to rescue stolen eggs hidden by squirrels in the underground passages.</plot>
+      <plot>Pawleen overhears the Rat Wizard’s plans in the tunnel and alerts the others.</plot>
+      <plot>Pawleen navigates through the tunnels to find a new path around the forest farm.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>68</id>
+    <image_url>https://cdn.midjourney.com/c1265bf7-5002-4871-be24-9e2ca0bd4783/0_1.png</image_url>
+    <character_name>Pawel</character_name>
+    <character_role>protagonist</character_role>
+    <image_details>
+      <width>1024</width>
+      <height>1024</height>
+      <format>PNG</format>
+      <size_bytes>1618852</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>bold</trait>
+      <trait>brave</trait>
+      <trait>impulsive</trait>
+      <trait>fearless</trait>
+    </character_traits>
+    <plot_lines/>
+  </character>
+  <character>
+    <id>69</id>
+    <image_url>https://cdn.midjourney.com/3022fc75-d714-449d-918f-36e61a108bdd/0_1.png</image_url>
+    <character_name>Pawel</character_name>
+    <character_role>hero</character_role>
+    <image_details>
+      <width>896</width>
+      <height>1344</height>
+      <format>PNG</format>
+      <size_bytes>2304428</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>fearless</trait>
+      <trait>clever</trait>
+      <trait>impulsive</trait>
+      <trait>loyal</trait>
+      <trait>curious</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Pawel discovers a hidden path that leads to the squirrels' secret stash.</plot>
+      <plot>Pawel helps lead a rescue mission for the chickens trapped by the Rat Wizard.</plot>
+      <plot>Pawel and Pawleen work together to outsmart the squirrels.</plot>
+      <plot>Pawel finds an ancient map that suggests treasure in the forest.</plot>
+      <plot>Pawel has a showdown with a squirrel gang.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>70</id>
+    <image_url>https://cdn.midjourney.com/928cdaf2-03f5-466e-be41-4215c23fb631/0_3.png</image_url>
+    <character_name>Pawel</character_name>
+    <character_role>hero</character_role>
+    <image_details>
+      <width>1200</width>
+      <height>960</height>
+      <format>PNG</format>
+      <size_bytes>881425</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>fearless</trait>
+      <trait>clever</trait>
+      <trait>impulsive</trait>
+      <trait>protective</trait>
+      <trait>curious</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Pawel leads the charge to retrieve stolen eggs from the squirrels.</plot>
+      <plot>Pawel discovers a hidden path in the forest leading to the Rat Wizard’s lair.</plot>
+      <plot>Pawel aids the chickens in organizing a defense strategy against squirrel attacks.</plot>
+      <plot>Pawel learns to coordinate a rescue mission for trapped turkeys.</plot>
+      <plot>Pawel must outsmart the Rat Wizard to save his forest friends.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>71</id>
+    <image_url>https://cdn.midjourney.com/9e810ea2-c564-41aa-a724-4041a07fbdd5/0_0.png</image_url>
+    <character_name>Vix &amp; Vixin</character_name>
+    <character_role>villain</character_role>
+    <image_details>
+      <width>896</width>
+      <height>1344</height>
+      <format>PNG</format>
+      <size_bytes>1431721</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>silly</trait>
+      <trait>mischievous</trait>
+      <trait>arrogant</trait>
+      <trait>playful</trait>
+      <trait>scheming</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Vix &amp; Vixin plan to steal eggs from the chicken coop in broad daylight.</plot>
+      <plot>The duo creates a diversion in the forest to distract Pawel and Pawleen.</plot>
+      <plot>Vix &amp; Vixin infiltrate the farm and gather intelligence.</plot>
+      <plot>Vix &amp; Vixin form an alliance with the Rat Wizard to bolster their plans.</plot>
+      <plot>The pair is caught in a trap set by the Yorkies after an attempted food raid.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>72</id>
+    <image_url>https://cdn.midjourney.com/584c9874-96a2-49e4-8715-769bab5bfb5a/0_3.png</image_url>
+    <character_name>Pawel</character_name>
+    <character_role>hero</character_role>
+    <image_details>
+      <width>1024</width>
+      <height>1024</height>
+      <format>PNG</format>
+      <size_bytes>1268554</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>brave</trait>
+      <trait>loyal</trait>
+      <trait>protective</trait>
+      <trait>clever</trait>
+      <trait>determined</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Pawel leads a daring mission to rescue stolen eggs from the squirrel gang.</plot>
+      <plot>Pawel trains the chickens to create a defensive formation against squirrel raids.</plot>
+      <plot>Pawel discovers an ancient map leading to a hidden treasure in the forest.</plot>
+      <plot>Pawel must navigate a series of traps set by the Rat Wizard to protect the homestead.</plot>
+      <plot>Pawel and the hens team up to repair a breach in the garden fence.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>73</id>
+    <image_url>https://cdn.midjourney.com/f2140d8a-32c0-47c0-85b9-c62128baa504/0_2.png</image_url>
+    <character_name>Snarkle</character_name>
+    <character_role>villain</character_role>
+    <image_details>
+      <width>1024</width>
+      <height>1024</height>
+      <format>PNG</format>
+      <size_bytes>1520097</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>sly</trait>
+      <trait>mischievous</trait>
+      <trait>arrogant</trait>
+      <trait>cunning</trait>
+      <trait>resourceful</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Snarkle devises a plan to steal eggs from the chickens.</plot>
+      <plot>The moles, led by Snarkle, declare war on the farm.</plot>
+      <plot>Snarkle tries to recruit the Rat Wizard for a plot against the Yorkies.</plot>
+      <plot>Snarkle gets caught in one of his own traps and needs rescuing.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>74</id>
+    <image_url>https://cdn.midjourney.com/acf68e10-ede2-4dd5-af1e-5e0ff29472d4/0_0.png</image_url>
+    <character_name>Rattikiki</character_name>
+    <character_role>villain</character_role>
+    <image_details>
+      <width>1024</width>
+      <height>1024</height>
+      <format>PNG</format>
+      <size_bytes>1831077</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>charismatic</trait>
+      <trait>strategic</trait>
+      <trait>disloyal</trait>
+      <trait>manipulative</trait>
+      <trait>opportunistic</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Rattikiki forms an unexpected alliance with the chickens to outsmart the squirrel gangs.</plot>
+      <plot>Rattikiki disguises himself as a chicken to steal their food and their eggs.</plot>
+      <plot>Rattikiki reveals the Rat Wizard's secrets!</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>11</id>
+    <image_url>https://cdn.midjourney.com/71cd132f-15c6-48bd-81cd-7e9940ddd8f1/0_0.png</image_url>
+    <character_name>Shadowpaw</character_name>
+    <character_role>villain</character_role>
+    <image_details>
+      <width>1024</width>
+      <height>1024</height>
+      <format>PNG</format>
+      <size_bytes>1540986</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>cunning</trait>
+      <trait>mysterious</trait>
+      <trait>secretive</trait>
+      <trait>manipulative</trait>
+      <trait>ambitious</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Shadowpaw discovers a mysterious glowing orb that grants him enhanced powers.</plot>
+      <plot>The Yorkies must retrieve the orb to prevent Shadowpaw from becoming unstoppable.</plot>
+      <plot>Shadowpaw forms an alliance with the Rat Wizard to expand his influence.</plot>
+      <plot>A rivalry between Shadowpaw and the leader of the squirrel gang unfolds.</plot>
+      <plot>Pawleen uncovers Shadowpaw's past and attempts to turn him away from villainy.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>75</id>
+    <image_url>https://cdn.midjourney.com/acf68e10-ede2-4dd5-af1e-5e0ff29472d4/0_1.png</image_url>
+    <character_name>Cluckster the Mouse</character_name>
+    <character_role>neutral</character_role>
+    <image_details>
+      <width>1024</width>
+      <height>1024</height>
+      <format>PNG</format>
+      <size_bytes>1397953</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>resourceful</trait>
+      <trait>friendly</trait>
+      <trait>disguised</trait>
+      <trait>curious</trait>
+      <trait>diplomatic</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Cluckster helps the chickens devise a plan to outsmart the egg-stealing squirrels.</plot>
+      <plot>He insists he is a chicken and wants only to be part of the flock.</plot>
+      <plot>The chickens rely on Cluckster to communicate with the moles for a secret mission.</plot>
+      <plot>Cluckster uncovers a plot by the Rat Wizard and warns the hens.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>76</id>
+    <image_url>https://cdn.midjourney.com/acf68e10-ede2-4dd5-af1e-5e0ff29472d4/0_2.png</image_url>
+    <character_name>Taktak</character_name>
+    <character_role>villain</character_role>
+    <image_details>
+      <width>1024</width>
+      <height>1024</height>
+      <format>PNG</format>
+      <size_bytes>1807523</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>deceitful</trait>
+      <trait>opportunistic</trait>
+      <trait>aristocratic</trait>
+      <trait>cowardly</trait>
+      <trait>charismatic</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Taktak tries to convince the turkeys and chickens he is just like them, but is secretly stealing their food.</plot>
+      <plot>Taktak works with the Rat Wizard.</plot>
+    </plot_lines>
+  </character>
+  <character>
+    <id>77</id>
+    <image_url>https://cdn.midjourney.com/54884e96-1bf5-428b-943e-869ca3bece68/0_3.png</image_url>
+    <character_name>Peepatrice</character_name>
+    <character_role>hero</character_role>
+    <image_details>
+      <width>896</width>
+      <height>1344</height>
+      <format>PNG</format>
+      <size_bytes>2227634</size_bytes>
+    </image_details>
+    <character_traits>
+      <trait>curious</trait>
+      <trait>playful</trait>
+      <trait>observant</trait>
+      <trait>courageous</trait>
+      <trait>charming</trait>
+    </character_traits>
+    <plot_lines>
+      <plot>Peepatrice discovers a hidden path in the forest leading to a secret garden.</plot>
+      <plot>Peepatrice teams up with Pawel and Pawleen to outsmart the squirrels.</plot>
+      <plot>Peepatrice finds a mysterious feather with magical properties.</plot>
+      <plot>Peepatrice organizes a dance contest among the chickens.</plot>
+      <plot>Peepatrice helps the turkeys escape from a sneaky trap set by the squirrels.</plot>
+    </plot_lines>
+  </character>
+</characters>
