@@ -28,10 +28,41 @@ if not api_key:
 # Initialize OpenAI client with the API key
 # the newest OpenAI model is "gpt-4o" which was released May 13, 2024.
 # do not change this unless explicitly requested by the user
-client = OpenAI(api_key=api_key)
+client = None
+
+def get_openai_client():
+    """Get or initialize OpenAI client with proper API key handling"""
+    global client, api_key
+    
+    if client is not None:
+        return client
+        
+    # If no API key was found during module initialization, try one more time
+    if not api_key:
+        # Check for environment variables again (might have been set after import)
+        api_key = os.environ.get("OPENAI_API_KEY")
+        
+        # Check common alternate names used in deployments
+        if not api_key:
+            potential_keys = ["OPENAI_KEY", "OPENAI_SECRET_KEY", "OPENAI_TOKEN", "OPENAI_ACCESS_TOKEN"]
+            for key_name in potential_keys:
+                potential_key = os.environ.get(key_name)
+                if potential_key:
+                    logger.info(f"Found alternative API key: {key_name}")
+                    api_key = potential_key
+                    # Set the standard environment variable for consistency
+                    os.environ["OPENAI_API_KEY"] = api_key
+                    break
+    
+    # Create the client with whatever key we have (might be None)
+    client = OpenAI(api_key=api_key)
+    return client
 
 def analyze_artwork(image_url):
     """Analyze the artwork using OpenAI's vision model"""
+    # Get client with the most up-to-date API key
+    current_client = get_openai_client()
+    
     if not api_key:
         raise Exception("OpenAI API key not found. Please add it to your Replit Secrets.")
 
@@ -94,7 +125,7 @@ def analyze_artwork(image_url):
             logger.debug(f"Successfully downloaded and encoded image. Analyzing artwork...")
 
             # Call OpenAI API with the base64 encoded image
-            response = client.chat.completions.create(
+            response = get_openai_client().chat.completions.create(
                 model="gpt-4o",
                 messages=[
                     {
