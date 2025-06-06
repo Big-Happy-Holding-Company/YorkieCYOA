@@ -16,6 +16,21 @@ logger = logging.getLogger(__name__)
 
 load_dotenv()
 
+# Debug environment variables
+logger.info("===== APPLICATION STARTUP =====")
+logger.info(f"Environment variables available: {', '.join(list(os.environ.keys()))}")
+logger.info(f"OpenAI API key set: {'Yes' if os.environ.get('OPENAI_API_KEY') else 'No'}")
+logger.info(f"Running in deployment: {'Yes' if os.environ.get('REPLIT_DEPLOYMENT') == '1' else 'No'}")
+
+# Look for any potential OpenAI API keys in unexpected variables
+for env_var, value in os.environ.items():
+    if isinstance(value, str) and value.startswith("sk-"):
+        logger.info(f"Found potential API key in: {env_var}")
+        # If it's not already set as OPENAI_API_KEY, set it
+        if not os.environ.get("OPENAI_API_KEY"):
+            logger.info(f"Setting OPENAI_API_KEY from {env_var}")
+            os.environ["OPENAI_API_KEY"] = value
+
 app = Flask(__name__)
 app.secret_key = os.environ.get("SESSION_SECRET")
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DATABASE_URL")

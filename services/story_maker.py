@@ -9,20 +9,37 @@ logger = logging.getLogger(__name__)
 
 # Get OpenAI API key from environment variables
 api_key = os.environ.get("OPENAI_API_KEY")
+
+# Debug environment information
+is_deployment = os.environ.get("REPLIT_DEPLOYMENT") == "1"
+logger.info(f"Running in deployment mode: {is_deployment}")
+logger.info(f"Environment variables available: {', '.join(list(os.environ.keys()))}")
+
 if not api_key:
-    is_deployment = os.environ.get("REPLIT_DEPLOYMENT") == "1"
     if is_deployment:
         logger.error("OpenAI API key not found in deployment environment! Make sure to add it in the Secrets tab of your deployment.")
     else:
         logger.warning("OpenAI API key not found. Please add it to your Replit Secrets.")
     
     # Check for alternative environment variable names that might be used in deployment
-    potential_keys = ["OPENAI_KEY", "OPENAI_SECRET_KEY", "OPENAI_TOKEN"]
+    potential_keys = ["OPENAI_KEY", "OPENAI_SECRET_KEY", "OPENAI_TOKEN", "OPENAI_ACCESS_TOKEN", 
+                     "OPEN_AI_KEY", "OPEN_AI_API_KEY", "OPENAI", "OPENAI_API"]
+    
     for key_name in potential_keys:
         potential_key = os.environ.get(key_name)
         if potential_key:
             logger.info(f"Found alternative API key environment variable: {key_name}")
             api_key = potential_key
+            # Set the standard environment variable for all code to use
+            os.environ["OPENAI_API_KEY"] = potential_key
+            break
+    
+    # Force check if API key starts with "sk-" pattern
+    for env_var, value in os.environ.items():
+        if isinstance(value, str) and value.startswith("sk-") and "OPENAI" not in env_var:
+            logger.info(f"Found potential API key in unexpected variable: {env_var}")
+            api_key = value
+            os.environ["OPENAI_API_KEY"] = value
             break
 
 # Initialize OpenAI client only when needed
