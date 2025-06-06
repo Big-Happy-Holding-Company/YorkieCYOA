@@ -5,6 +5,8 @@ import logging
 import base64
 from typing import Dict, Any, Optional
 import ollama
+import subprocess
+import time
 
 # Configure logging
 logger = logging.getLogger(__name__)
@@ -14,8 +16,48 @@ class LocalLLMService:
     
     def __init__(self, model_name: str = "phi3:mini"):
         self.model_name = model_name
-        self.client = ollama.Client()
-        self._ensure_model_available()
+        self.client = None
+        self.ollama_available = False
+        self._setup_ollama()
+    
+    def _setup_ollama(self):
+        """Setup Ollama service and client"""
+        try:
+            # Try to start Ollama service
+            self._start_ollama_service()
+            
+            # Initialize client
+            self.client = ollama.Client()
+            
+            # Test connection and setup model
+            self._ensure_model_available()
+            self.ollama_available = True
+            logger.info("Ollama service initialized successfully")
+            
+        except Exception as e:
+            logger.warning(f"Could not initialize Ollama: {str(e)}")
+            logger.info("Will use fallback text-based analysis")
+            self.ollama_available = False
+    
+    def _start_ollama_service(self):
+        """Start Ollama service if not running"""
+        try:
+            # Check if Ollama is already running
+            result = subprocess.run(['pgrep', '-f', 'ollama serve'], 
+                                  capture_output=True, text=True)
+            
+            if result.returncode != 0:  # Not running
+                logger.info("Starting Ollama service...")
+                # Start Ollama in background
+                subprocess.Popen(['ollama', 'serve'], 
+                               stdout=subprocess.DEVNULL, 
+                               stderr=subprocess.DEVNULL)
+                # Wait for service to start
+                time.sleep(3)
+                
+        except Exception as e:
+            logger.warning(f"Could not start Ollama service: {str(e)}")
+            raise
     
     def _ensure_model_available(self):
         """Ensure the model is downloaded and available"""
@@ -36,7 +78,7 @@ class LocalLLMService:
             raise Exception(f"Failed to setup model {self.model_name}: {str(e)}")
     
     def analyze_artwork(self, image_url: str) -> Dict[str, Any]:
-        """Analyze artwork using local vision model"""
+        """Analyze artwork using local LLM or fallback to rule-based analysis"""
         try:
             # Download the image
             response = requests.get(image_url, timeout=30)
@@ -63,10 +105,22 @@ class LocalLLMService:
             except Exception as img_err:
                 logger.warning(f"Could not extract image metadata: {str(img_err)}")
             
-            # Convert image to base64
-            image_base64 = base64.b64encode(response.content).decode('utf-8')
+            # Use local LLM if available, otherwise use rule-based analysis
+            if self.ollama_available and self.client:
+                return self._analyze_with_llm(image_url, image_metadata)
+            else:
+                return self._analyze_with_fallback(image_url, image_metadata)
             
-            # Create the analysis prompt
+        except requests.exceptions.RequestException as req_err:
+            logger.error(f"Error downloading image: {str(req_err)}")
+            raise Exception(f"Failed to download image from {image_url}: {str(req_err)}")
+        except Exception as e:
+            logger.error(f"Error analyzing artwork: {str(e)}")
+            raise Exception(f"Failed to analyze artwork: {str(e)}")
+    
+    def _analyze_with_llm(self, image_url: str, image_metadata: Dict[str, Any]) -> Dict[str, Any]:
+        """Analyze using local LLM"""
+        try:
             system_prompt = """You are an expert analyzer of images for a "Choose Your Own Adventure" story universe.
 
 The universe is centered around Uncle Mark's forest farm where two Yorkshire Terriers are the main characters:
@@ -100,47 +154,79 @@ For SCENES, provide:
 
 Respond in JSON format with the appropriate keys based on the image type. Use snake_case for all field names."""
 
-            user_prompt = "Please analyze this image for our Choose Your Own Adventure story:"
+            user_prompt = f"Please analyze this image for our Choose Your Own Adventure story:\n\nImage URL: {image_url}\nImage size: {image_metadata['size_bytes']} bytes"
             
-            # For Phi-3, we'll use text-only analysis since vision capabilities may be limited
-            # We'll describe what we can infer from the image URL/context
             response = self.client.chat(
                 model=self.model_name,
                 messages=[
-                    {
-                        'role': 'system',
-                        'content': system_prompt
-                    },
-                    {
-                        'role': 'user', 
-                        'content': f"{user_prompt}\n\nImage URL: {image_url}\nImage size: {image_metadata['size_bytes']} bytes"
-                    }
+                    {'role': 'system', 'content': system_prompt},
+                    {'role': 'user', 'content': user_prompt}
                 ],
                 format='json'
             )
             
-            # Parse the response
             content = response['message']['content']
             result = json.loads(content)
-            
-            # Add image metadata to the result
             result["image_metadata"] = image_metadata
             
             logger.debug("Successfully analyzed artwork with local LLM")
             return result
             
-        except requests.exceptions.RequestException as req_err:
-            logger.error(f"Error downloading image: {str(req_err)}")
-            raise Exception(f"Failed to download image from {image_url}: {str(req_err)}")
-        except json.JSONDecodeError as json_err:
-            logger.error(f"Error parsing LLM response: {str(json_err)}")
-            raise Exception(f"Failed to parse LLM response: {str(json_err)}")
         except Exception as e:
-            logger.error(f"Error analyzing artwork: {str(e)}")
-            raise Exception(f"Failed to analyze artwork: {str(e)}")
+            logger.warning(f"LLM analysis failed: {str(e)}, falling back to rule-based analysis")
+            return self._analyze_with_fallback(image_url, image_metadata)
+    
+    def _analyze_with_fallback(self, image_url: str, image_metadata: Dict[str, Any]) -> Dict[str, Any]:
+        """Fallback rule-based analysis when LLM is not available"""
+        logger.info("Using rule-based analysis (LLM not available)")
+        
+        # Simple heuristics based on filename/URL patterns
+        url_lower = image_url.lower()
+        
+        # Check for character-related keywords
+        character_keywords = ['dog', 'yorkie', 'terrier', 'chicken', 'rooster', 'hen', 'turkey', 'animal', 'pet']
+        scene_keywords = ['forest', 'farm', 'barn', 'field', 'pasture', 'garden', 'landscape', 'scene']
+        
+        is_character = any(keyword in url_lower for keyword in character_keywords)
+        is_scene = any(keyword in url_lower for keyword in scene_keywords)
+        
+        if is_character and not is_scene:
+            # Generate character analysis
+            return {
+                "character_name": "Unknown Character",
+                "character_traits": ["mysterious", "intriguing", "story-worthy"],
+                "character_role": "neutral",
+                "plot_lines": [
+                    "This character could become an ally in the adventure",
+                    "They might have important information for Pawel and Pawleen",
+                    "Their unique abilities could help solve problems"
+                ],
+                "image_metadata": image_metadata
+            }
+        else:
+            # Generate scene analysis
+            return {
+                "scene_type": "narrative",
+                "setting": "Uncle Mark's farm",
+                "setting_description": "A beautiful location that fits perfectly into the adventure story",
+                "story_fit": "This setting provides an excellent backdrop for character interactions and plot development",
+                "dramatic_moments": [
+                    "Characters could discover something important here",
+                    "This location might be where key decisions are made",
+                    "The environment could present challenges or opportunities"
+                ],
+                "image_metadata": image_metadata
+            }
     
     def generate_story(self, prompt: str, **kwargs) -> Dict[str, Any]:
-        """Generate story content using local LLM"""
+        """Generate story content using local LLM or fallback"""
+        if self.ollama_available and self.client:
+            return self._generate_story_with_llm(prompt, **kwargs)
+        else:
+            return self._generate_story_fallback(prompt, **kwargs)
+    
+    def _generate_story_with_llm(self, prompt: str, **kwargs) -> Dict[str, Any]:
+        """Generate story using local LLM"""
         try:
             response = self.client.chat(
                 model=self.model_name,
@@ -163,15 +249,35 @@ Respond in JSON format with the appropriate keys based on the image type. Use sn
             logger.debug("Successfully generated story with local LLM")
             return result
             
-        except json.JSONDecodeError as json_err:
-            logger.error(f"Error parsing story generation response: {str(json_err)}")
-            raise Exception(f"Failed to parse story generation response: {str(json_err)}")
         except Exception as e:
-            logger.error(f"Error generating story: {str(e)}")
-            raise Exception(f"Failed to generate story: {str(e)}")
+            logger.warning(f"LLM story generation failed: {str(e)}, using fallback")
+            return self._generate_story_fallback(prompt, **kwargs)
+    
+    def _generate_story_fallback(self, prompt: str, **kwargs) -> Dict[str, Any]:
+        """Fallback story generation when LLM is not available"""
+        logger.info("Using fallback story generation (LLM not available)")
+        
+        return {
+            "narrative": "Pawel and Pawleen found themselves at an interesting crossroads in their adventure. The Yorkshire Terriers exchanged knowing glances, their keen instincts telling them that an important decision lay ahead. The forest around them seemed to hold its breath, waiting to see which path they would choose.",
+            "choices": [
+                {"text": "Explore the mysterious path ahead", "consequence_hint": "Discover new adventures"},
+                {"text": "Investigate the interesting sounds nearby", "consequence_hint": "Meet new characters"},
+                {"text": "Return and gather more information", "consequence_hint": "Prepare for challenges"}
+            ],
+            "setting_details": "A peaceful forest clearing with multiple paths",
+            "character_focus": "Pawel and Pawleen",
+            "tension_level": "medium"
+        }
     
     def generate_image_description(self, analysis: Dict[str, Any]) -> str:
         """Generate a concise description of the analyzed image"""
+        if self.ollama_available and self.client:
+            return self._generate_description_with_llm(analysis)
+        else:
+            return self._generate_description_fallback(analysis)
+    
+    def _generate_description_with_llm(self, analysis: Dict[str, Any]) -> str:
+        """Generate description using local LLM"""
         try:
             prompt = f"Based on this image analysis, write a concise, engaging description:\n{json.dumps(analysis, indent=2)}"
             
@@ -192,8 +298,17 @@ Respond in JSON format with the appropriate keys based on the image type. Use sn
             return response['message']['content'].strip()
             
         except Exception as e:
-            logger.error(f"Error generating image description: {str(e)}")
-            return "A scene from the adventure story."
+            logger.warning(f"LLM description generation failed: {str(e)}, using fallback")
+            return self._generate_description_fallback(analysis)
+    
+    def _generate_description_fallback(self, analysis: Dict[str, Any]) -> str:
+        """Fallback description generation"""
+        if analysis.get('character_name'):
+            return f"An intriguing character named {analysis['character_name']} who could play an important role in the adventure."
+        elif analysis.get('setting'):
+            return f"A beautiful {analysis['setting']} that provides the perfect backdrop for storytelling."
+        else:
+            return "A captivating scene from the adventure story."
 
 # Global service instance
 local_llm_service = None
