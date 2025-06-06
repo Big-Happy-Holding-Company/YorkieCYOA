@@ -15,6 +15,18 @@ is_deployment = os.environ.get("REPLIT_DEPLOYMENT") == "1"
 logger.info(f"Running in deployment mode: {is_deployment}")
 logger.info(f"Environment variables available: {', '.join(list(os.environ.keys()))}")
 
+# Debug: Show all environment variables that contain "sk-"
+for env_var, value in os.environ.items():
+    if isinstance(value, str) and value.startswith("sk-"):
+        logger.info(f"Found API key in {env_var}: {value[:10]}...{value[-4:]}")
+
+# Debug: Show OPENAI_API_KEY specifically
+openai_key = os.environ.get("OPENAI_API_KEY")
+if openai_key:
+    logger.info(f"OPENAI_API_KEY found: {openai_key[:10]}...{openai_key[-4:]}")
+else:
+    logger.info("OPENAI_API_KEY not found")
+
 if not api_key:
     if is_deployment:
         logger.error("OpenAI API key not found in deployment environment! Make sure to add it in the Secrets tab of your deployment.")
