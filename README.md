@@ -135,7 +135,7 @@ The story universe centers around Uncle Mark's forest farm with:
 
 ## Credits
 
-- OpenAI for GPT-4o
+- OpenAI for gpt-4.1-nano-2025-04-14 
 - Bootstrap for UI framework
 
 ## License

@@ -114,6 +114,7 @@ def analyze_artwork(image_url):
 
         # Ensure we have proper error handling for the image download
         try:
+            import requests
             response = requests.get(image_url, headers=headers, timeout=10)
             response.raise_for_status()  # Raise an exception for bad status codes
 
@@ -155,7 +156,7 @@ def analyze_artwork(image_url):
 
             # Call OpenAI API with the base64 encoded image
             response = get_openai_client().chat.completions.create(
-                model="gpt-4o",
+                model="gpt-4.1-nano-2025-04-14",
                 messages=[
                     {
                         "role": "system",
@@ -219,14 +220,17 @@ Respond in JSON format with the appropriate keys based on the image type. Use sn
         except requests.exceptions.RequestException as req_err:
             logger.error(f"Error downloading image: {str(req_err)}")
             raise Exception(f"Failed to download image from {image_url}: {str(req_err)}")
-        result = json.loads(response.choices[0].message.content)
+        content = response.choices[0].message.content
+        if content is None:
+            raise Exception("OpenAI returned empty response")
+        result = json.loads(content)
 
         # Add image metadata to the result
         result["image_metadata"] = image_metadata
 
         logger.debug("Successfully analyzed artwork")
         return result
-    except requests.exceptions.RequestException as req_err:
+    except Exception as req_err:
         logger.error(f"Error downloading image: {str(req_err)}")
         raise Exception(f"Failed to download image: {str(req_err)}")
     except json.JSONDecodeError as json_err:

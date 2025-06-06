@@ -255,10 +255,9 @@ def generate_story(
     )
 
     try:
-        # Note: gpt-4o is the newest model, released May 13, 2024.
-        # do not change this unless explicitly requested by the user
+        # Using gpt-4.1-nano-2025-04-14 model as requested
         response = get_openai_client().chat.completions.create(
-            model="gpt-4o",
+            model="gpt-4.1-nano-2025-04-14",
             messages=[
                 {
                     "role": "system",
@@ -276,7 +275,10 @@ def generate_story(
         )
 
         # Parse and return the generated story
-        result = json.loads(response.choices[0].message.content)
+        content = response.choices[0].message.content
+        if content is None:
+            raise Exception("OpenAI returned empty response")
+        result = json.loads(content)
         return {
             "story": json.dumps(result),  # Convert dict to JSON string for database storage
             "conflict": final_conflict,
