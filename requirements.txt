@@ -1,0 +1,7 @@
+dotenv
+flask
+flask_cors
+flask_sqlalchemy
+openai
+psycopg2
+requests
