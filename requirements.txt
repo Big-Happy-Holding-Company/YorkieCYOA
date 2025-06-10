@@ -2,6 +2,7 @@ python-dotenv
 flask
 flask_cors
 flask_sqlalchemy
+ollama
 openai
 psycopg2-binary
 requests
